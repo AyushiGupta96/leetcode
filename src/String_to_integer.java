@@ -1,7 +1,9 @@
 public class String_to_integer {
     public int myAtoi(String s) {
+        
         final int INT_MAX =Integer.MAX_VALUE;
         final int INT_MIN = Integer.MIN_VALUE;
+        //initialize
         int i=0;
         int n = s.length();
         //skip leading whitespace
