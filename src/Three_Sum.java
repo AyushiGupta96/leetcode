@@ -17,7 +17,7 @@ public class Three_Sum {
                     seen.put(nums[j],i);
                 }
             }
-            //return new ArrayList(res);
+           
         }
         return new ArrayList(res);
     }
